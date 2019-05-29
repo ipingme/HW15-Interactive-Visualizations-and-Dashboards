@@ -65,7 +65,7 @@ function buildCharts(sample) {
       margin: {t: 0, l: 0}
     };
 
-    Plotly.Plot("pie", pieData, pieLayout);
+    Plotly.newPlot("pie", pieData, pieLayout);
   })
     
 }
